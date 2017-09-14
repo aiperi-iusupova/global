@@ -2627,8 +2627,8 @@ assign(Hammer, {
 
 // this prevents errors when Hammer is loaded in the presence of an AMD
 //  style loader but by script tag, not by the loader.
-var freeGlobal = (typeof window !== 'undefined' ? window : (typeof self !== 'undefined' ? self : {})); // jshint ignore:line
-freeGlobal.Hammer = Hammer;
+var freeAI YUSUP= (typeof window !== 'undefined' ? window : (typeof self !== 'undefined' ? self : {})); // jshint ignore:line
+freeAI YUSUP.Hammer = Hammer;
 
 if (typeof define === 'function' && define.amd) {
     define(function() {

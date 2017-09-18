@@ -917,6 +917,7 @@ a:link, a:visited, a:hover, a:active {
   display: none;
   max-width: 250px;
   margin: 0 auto;
+  text-align: center;
 }
 /* line 50, modules/_work.sass */
 .work--lockup .slider--item-image {
@@ -1283,8 +1284,8 @@ a:link, a:visited, a:hover, a:active {
 .contact--lockup {
   position: relative;
   display: flex;
-  width: 900px;
-  max-width: 75%;
+  width: 1250px;
+  max-width: 100%;
   height: 100%;
   align-items: center;
   justify-content: flex-end;
@@ -1299,7 +1300,7 @@ a:link, a:visited, a:hover, a:active {
 @media (max-width: 767px) {
   /* line 14, modules/_contact.sass */
   .contact--lockup {
-    justify-content: center;
+    justify-content: right;
   }
 }
 /* line 30, modules/_contact.sass */
@@ -1316,13 +1317,13 @@ a:link, a:visited, a:hover, a:active {
   margin: 14px 0;
   text-decoration: none;
   color: #fff;
-  font-weight: lighter;
-  text-align: center;
+  font-weight: normal;
+  text-align: justify;
 }
 
 /* line 46, modules/_contact.sass */
 .contact--lockup .modal--information p {
-  margin-top: 0;
+  margin-top: 10;
 }
 /* line 49, modules/_contact.sass */
 .contact--lockup .modal--options {
